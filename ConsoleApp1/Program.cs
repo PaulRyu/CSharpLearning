@@ -10,6 +10,18 @@ public class EntryPoint
 
         Console.WriteLine(theGoodGuy.Height);
         Console.WriteLine(theBadGuy.Height);
+        try
+        {
+            theGoodGuy.Age = 25;
+            theBadGuy.Age = 58;
+        }
+        catch(ArgumentOutOfRangeException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        
+        Console.WriteLine(theGoodGuy.Age);
+        Console.WriteLine(theBadGuy.Age);
 
         theGoodGuy.Greetings(theBadGuy);
         theBadGuy.Greetings(theGoodGuy);
