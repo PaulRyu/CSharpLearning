@@ -23,7 +23,7 @@ public class EntryPoint
         Console.WriteLine(theGoodGuy.Age);
         Console.WriteLine(theBadGuy.Age);
 
-        theGoodGuy.Greetings(theBadGuy);
-        theBadGuy.Greetings(theGoodGuy);
+        theGoodGuy.Greetings("Chad");
+        //theBadGuy.Greetings(theGoodGuy);
     }
 }

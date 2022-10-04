@@ -11,6 +11,7 @@
         {
             get
             {
+
                 return age;
             }
             set
@@ -62,13 +63,14 @@
 
         public Warrior(int height, int weight, string name)
         {
-            Height = height;
-            Weight = weight;
-            Name = name;
+            this.height = height; // pointing to the height declared at the top of the class
+            this.Height = height;
+            this.Weight = weight;
+            this.Name = name;
         }
-        public void Greetings(Warrior warrior)
+        public void Greetings(string name)
         {
-            Console.WriteLine($@"Greetings, {warrior.Name}!");
+            Console.WriteLine($@"{this.name}, greets {name}!");
         }
     }
 }
