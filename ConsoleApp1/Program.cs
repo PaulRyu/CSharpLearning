@@ -4,26 +4,34 @@ public class EntryPoint
 {
     static void Main()
     {
-        Warrior theGoodGuy = new Warrior(10, 100, "Barnabas");
+        Warrior firstWarrior = new Warrior();
+        Warrior secondWarrior = new Warrior(150, 150);
+        Warrior thirdWarrior = new Warrior(200, 200, "New Char");
 
-        Warrior theBadGuy = new Warrior(100, 500, "Chad");
+        Warrior.id = 100;
+        //Warrior theGoodGuy = new Warrior(10, 100, "Barnabas");
 
-        Console.WriteLine(theGoodGuy.Height);
-        Console.WriteLine(theBadGuy.Height);
-        try
-        {
-            theGoodGuy.Age = 25;
-            theBadGuy.Age = 58;
-        }
-        catch(ArgumentOutOfRangeException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        //Warrior theBadGuy = new Warrior(100, 500, "Chad");
+
+        //Warrior youngWarrior = new Warrior(50, 80);
+
+        //Console.WriteLine(theGoodGuy.Height);
+        //Console.WriteLine(theBadGuy.Height);
+        //try
+        //{
+        //    theGoodGuy.Age = 25;
+        //    theBadGuy.Age = 58;
+        //}
+        //catch(ArgumentOutOfRangeException ex)
+        //{
+        //    Console.WriteLine(ex.Message);
+        //}
         
-        Console.WriteLine(theGoodGuy.Age);
-        Console.WriteLine(theBadGuy.Age);
+        //Console.WriteLine(theGoodGuy.Age);
+        //Console.WriteLine(theBadGuy.Age);
 
-        theGoodGuy.Greetings("Chad");
-        //theBadGuy.Greetings(theGoodGuy);
+        //theGoodGuy.Greetings("Chad");
+
+        //Console.WriteLine(theGoodGuy.SwordWeapon.Damage);
     }
 }

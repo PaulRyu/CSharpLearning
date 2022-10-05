@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{ED482E54-0AAA-431E-94F1-A2D8D96B6096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{ED482E54-0AAA-431E-94F1-A2D8D96B6096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiersExample", "AccessModifiersExample\AccessModifiersExample.csproj", "{FBF5D71F-CF36-4E6F-A5CF-B57513A1D611}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ED482E54-0AAA-431E-94F1-A2D8D96B6096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED482E54-0AAA-431E-94F1-A2D8D96B6096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED482E54-0AAA-431E-94F1-A2D8D96B6096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF5D71F-CF36-4E6F-A5CF-B57513A1D611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF5D71F-CF36-4E6F-A5CF-B57513A1D611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF5D71F-CF36-4E6F-A5CF-B57513A1D611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF5D71F-CF36-4E6F-A5CF-B57513A1D611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
