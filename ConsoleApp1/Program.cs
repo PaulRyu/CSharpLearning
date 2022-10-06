@@ -8,7 +8,11 @@ public class EntryPoint
         Warrior secondWarrior = new Warrior(150, 150);
         Warrior thirdWarrior = new Warrior(200, 200, "New Char");
 
-        Warrior.id = 100;
+        Console.WriteLine(firstWarrior.ID);
+        Console.WriteLine(secondWarrior.ID);
+        Console.WriteLine(thirdWarrior.ID);
+
+        Warrior.GetDefaultValues(firstWarrior);
         //Warrior theGoodGuy = new Warrior(10, 100, "Barnabas");
 
         //Warrior theBadGuy = new Warrior(100, 500, "Chad");
